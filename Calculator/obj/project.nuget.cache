@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Avk85mk03k/lLL+QQ5SkOTrd5JAqqxiah1O6eYZ0Xpoaf7VAJe+u/WaV9IJZyf4Rkrjh9iFZV2ZK1vhahKN05A==",
+  "success": true,
+  "projectFilePath": "C:\\reposC#\\Calculator\\Calculator\\Calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prach\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

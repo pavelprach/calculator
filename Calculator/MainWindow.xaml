@@ -1,0 +1,16 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid HorizontalAlignment="Left">
+        <TextBox x:Name="input_expression" HorizontalAlignment="Left" Margin="143,154,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" Height="46" FontSize="26"/>
+        <Label Content=" =" HorizontalAlignment="Left" Margin="514,155,0,0" VerticalAlignment="Top" FontSize="26" Width="47"/>
+        <Label x:Name="label_result" Content="" HorizontalAlignment="Left" Margin="567,153,0,0" VerticalAlignment="Top" FontSize="26" Width="104"/>
+        <Button x:Name="bnt_1" Content="Посчитать" HorizontalAlignment="Left" Margin="278,255,0,0" VerticalAlignment="Top" FontSize="26" Click="bnt_1_Click"/>
+
+    </Grid>
+</Window>
